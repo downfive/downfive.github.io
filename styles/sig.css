@@ -1,6 +1,7 @@
 .down {font-family:georgia;width:1000px;height:auto;margin:auto;text-align:center;font-weight:normal;display:flex;flex-wrap:wrap;}
-.cr {font-family: georgia; display:block; font-style: italic; font-size:13px; text-align:center;flex-basis: auto;width: 1000px;height: 100px;flex-grow: 1;}
+
 .inf {display: block; text-align:center; width: 1000px; flex-grow: 1;}
+.cr {font-style: italic; font-size:13px;}
 
 .down .cat {font-weight:normal;width:calc(1000px / 6);}
 .down img {display:block; width:calc(1000px / 6);}
