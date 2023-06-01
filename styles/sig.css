@@ -4,10 +4,9 @@
 .inf {display: block; text-align:center; width: 1000px; flex-grow: 1;}
 .cr {display: block; text-align: center; width: 1000px; font-size: 13px; font-style: italic;}
 
-.down .cat {font-weight:normal;width:calc(1000px / 6);}
+.down .cat {font-weight:normal;width:calc(1000px / 7);}
 
-.cat span:first-of-type {display:block;}
-.b span:first-of-type {font-weight: bold; font-style: italic;}
+.cat span:first-of-type {display:block; font-weight:bold;}
 
 .d {color: #808000;}
 .b {color: #3CB371;}
