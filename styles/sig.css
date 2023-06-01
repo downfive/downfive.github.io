@@ -4,7 +4,7 @@
 .inf {display: block; text-align:center; width: 1000px; flex-grow: 1;}
 .cr {display: block; text-align: center; width: 1000px; font-size: 13px; font-style: italic;}
 
-.down .cat {font-weight:normal;width:calc(1000px / 6);}
+.down .cat {font-weight:normal;width:calc(1000px / 6);text-align:center;}
 
 .cat span:first-of-type {display:block;}
 .b > span {font-weight: bold; font-style: italic;}
