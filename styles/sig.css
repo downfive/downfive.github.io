@@ -1,15 +1,15 @@
-.down {font-family: georgia; width: 1000px; height: auto; margin: auto; text-align: center; font-weight: normal;}
-.ds {width: 1000px; height: 320px;}
+.down {font-family: georgia; width: 1000px; height: auto; margin: auto; text-align: center;}
+.ds {width: 1000px; height: 320px; align: center;}
 
 .inf {font-family: georgia; display: block; width:1000px; text-align: center;}
 .cr {font-size: 11px; font-style: italic;}
-.cat {font-weight: normal; width:calc(1000px/6);}
+.cat {width:calc(1000px/6);}
 
 .b span:first-of-type {display: block; font-weight: bold; font-style: italic;}
 
-.dayquill, .d {color: #808000; --accent: #808000;}
-.birdstar, .b {color: #3CB371; --accent: #3CB371;}
-.silverpaw, .s {color: #845D56; --accent: #845D56;}
-.rowansong, .r {color: #68228B; --accent: #68228B;}
-.rookpaw, .rk {color: #6082B6; --accent: #6082B6;}
-.adderdawn, .a {color: #8B6508; --accent: #8B6508;}
+.d {color: #808000;}
+.b {color: #3CB371;}
+.s {color: #845D56;}
+.r {color: #68228B;}
+.rk {color: #6082B6;}
+.a {color: #8B6508;}
