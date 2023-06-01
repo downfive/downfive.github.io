@@ -2,7 +2,7 @@
 .ds > img {display:block; width:1000px; height:320px;}
 
 .inf {display: block; text-align:center; width: 1000px; flex-grow: 1;}
-.cr {display: block; text-align: center; font-size: 11px; font-style: italic;}
+.cr {display: block; text-align: center; width: 1000px; font-size: 13px; font-style: italic;}
 
 .down .cat {font-weight:normal;width:calc(1000px / 6);}
 
