@@ -1,5 +1,5 @@
 .down {font-family:georgia;width:1000px;height:auto;margin:auto;text-align:center;font-weight:normal;display:flex;flex-wrap:wrap;}
-.ds {display:block; width:1000px; height: 320px;flex-grow: 1;}
+.ds {display:block; flex-basis: 100%;width: 1000px;height: 320px;flex-grow: 1;}
 
 .inf {display: block; text-align:center; width: 1000px; flex-grow: 1;}
 .cr {display: block; text-align: center; width: 1000px; font-size: 13px; font-style: italic;}
@@ -7,6 +7,7 @@
 .down .cat {font-weight:normal;width:calc(1000px / 7);}
 
 .cat span:first-of-type {display:block;}
+.b > span {font-weight: bold; font-style: italic;}
 
 .d {color: #808000;}
 .b {color: #3CB371;}
