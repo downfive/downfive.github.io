@@ -1,0 +1,48 @@
+.down {
+  font-family: georgia;
+  width: 1000px;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  font-weight: normal;
+}
+.ds {
+  font-family: georgia;
+  display: block;
+  text-align: center;
+  background: url(https://i.ibb.co/0r9YtN4/down-signature-4.png);
+  background-size: cover;
+  flex-basis: 100%;
+  width: 1000px;
+  height: 320px;
+  flex-grow: 1;
+}
+
+.down .f1 {
+  font-weight: normal;
+  width:calc(1000px/6);
+}
+.b span:first-of-type {
+  display: block;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.dayquill, .d {
+  color: #808000; --accent: #808000;
+}
+.birdstar, .b {
+  color: #3CB371; --accent: #3CB371;
+}
+.silverpaw, .b {
+  color: #845D56; --accent: #845D56;
+}
+.rowansong, .r {
+  color: #68228B; --accent: #68228B;
+}
+.rookpaw, .rk {
+  color: #6082B6; --accent: #6082B6;
+}
+.adderdawn, .a {
+  color: #8B6508; --accent: #8B6508;
+}
