@@ -18,6 +18,10 @@
   flex-grow: 1;
 }
 
+.down .cr {
+  font-size: 11px;
+  font-style: italic;
+}
 .down .f1 {
   font-weight: normal;
   width:calc(1000px/6);
