@@ -1,4 +1,4 @@
-.down {font-family: georgia; width: 1000px; height: auto; margin: auto; text-align: center;}
+.down {font-family: georgia; font-size: 13px; width: 1000px; height: auto; margin: auto; text-align: center;}
 .ds {display: block; margin-left: auto; margin-right: auto; width: 1000px;}
 
 .inf {font-family: georgia; display: block; width: 1000px; text-align: center;}
@@ -6,7 +6,12 @@
 
 .cat {font-family: georgia; height: auto; margin: auto; text-align: center; font-weight:normal; width:calc(1000px / 6);}
 
-.b span:first-of-type {display: block; font-weight: bold; font-style: italic;}
+.d span:first-of-type {display: block; font-weight: bold; font-size:15px;}
+.b span:first-of-type {display: block; font-weight: bold; font-style: italic; font-size:15px;}
+.s span:first-of-type {display: block; font-weight: bold; font-size:15px;}
+.r span:first-of-type {display: block; font-weight: bold; font-size:15px;}
+.rk span:first-of-type {display: block; font-weight: bold; font-size:15px;}
+.a span:first-of-type {display: block; font-weight: bold; font-size:15px;}
 
 .d {color: #808000;}
 .b {color: #3CB371;}
