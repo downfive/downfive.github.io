@@ -1,7 +1,6 @@
 .down {font-family: georgia; width: 1000px; height: auto; margin: auto; text-align: center;}
-.ds {width: 1000px; height: 320px; align: center;}
 
-.inf {font-family: georgia; display: block; width:1000px; text-align: center;}
+.inf {font-family: georgia; display: block; width: 1000px; text-align: center;}
 .cr {font-size: 11px; font-style: italic;}
 .cat {width:calc(1000px/6);}
 
