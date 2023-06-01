@@ -1,12 +1,12 @@
 .down {font-family:georgia;width:1000px;height:auto;margin:auto;text-align:center;font-weight:normal;display:flex;flex-wrap:wrap;}
-.ds {display:block; width:calc(1000px/6); height: auto;flex-grow: 1;}
+.ds {display:block; width:1000px; height: 320px;flex-grow: 1;}
 
 .inf {display: block; text-align:center; width: 1000px; flex-grow: 1;}
 .cr {display: block; text-align: center; width: 1000px; font-size: 13px; font-style: italic;}
 
-.down .cat {font-weight:normal;width:calc(1000px / 6);text-align:center;}
+.down .cat {font-weight:normal;width:calc(1000px / 7);}
 
-.cat span:first-of-type {display:flex;}
+.cat span:first-of-type {display:block;}
 
 .d {color: #808000;}
 .b {color: #3CB371;}
