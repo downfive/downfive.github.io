@@ -6,12 +6,12 @@
 
 .cat {font-family: georgia; height: auto; margin: auto; text-align: center; font-weight:normal; width:calc(1000px / 6);}
 
-.d span:first-of-type {display: block; font-weight: bold; font-size:15px;}
-.b span:first-of-type {display: block; font-weight: bold; font-style: italic; font-size:15px;}
-.s span:first-of-type {display: block; font-weight: bold; font-size:15px;}
-.r span:first-of-type {display: block; font-weight: bold; font-size:15px;}
-.rk span:first-of-type {display: block; font-weight: bold; font-size:15px;}
-.a span:first-of-type {display: block; font-weight: bold; font-size:15px;}
+.d span:first-of-type {display: block; font-weight: bold; font-size:24px;}
+.b span:first-of-type {display: block; font-weight: bold; font-style: italic; font-size:24px;}
+.s span:first-of-type {display: block; font-weight: bold; font-size:24px;}
+.r span:first-of-type {display: block; font-weight: bold; font-size:24px;}
+.rk span:first-of-type {display: block; font-weight: bold; font-size:24px;}
+.a span:first-of-type {display: block; font-weight: bold; font-size:24px;}
 
 .d {color: #808000;}
 .b {color: #3CB371;}
