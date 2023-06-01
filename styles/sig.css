@@ -1,10 +1,10 @@
 .down {font-family: georgia; width: 1000px; height: auto; margin: auto; text-align: center;}
 .ds {display: block; width: 1000px; height: 320px;}
 
-.inf {font-family: georgia; display: block; width: 1000px; text-align: center;}
+.inf {display: block; width: 1000px; text-align: center;}
 .cr {font-size: 11px; font-style: italic;}
 
-.cat {font-family: georgia; height: auto; margin: auto; text-align: center; font-weight:normal; width:calc(1000px / 6);}
+.cat {font-weight:normal; width:calc(1000px / 6);}
 
 .b span:first-of-type {display: block; font-weight: bold; font-style: italic;}
 
