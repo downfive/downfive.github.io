@@ -6,7 +6,7 @@
 
 .down .cat {font-weight:normal;width:calc(1000px / 6);text-align:center;}
 
-.cat span:first-of-type {display:block;}
+.cat span:first-of-type {display:flex;}
 
 .d {color: #808000;}
 .b {color: #3CB371;}
