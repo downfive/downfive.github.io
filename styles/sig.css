@@ -1,5 +1,5 @@
 .down {font-family:georgia;width:1000px;height:auto;margin:auto;text-align:center;font-weight:bold;display:flex;flex-wrap:wrap;}
-.ds {display:block;flex-basis:100%;width:1000px;height:320px;flex-grow:1;}
+.ds {display:block;flex-basis:100%;width:1000px;height:500px;flex-grow:1;}
 
 .inf {display: block; display:block; text-align:center; width: 1000px; flex-grow: 1;}
 .cr {font-size: 11px; font-style: italic;}
