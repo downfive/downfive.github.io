@@ -1,11 +1,12 @@
-.down {display:flex; flex-wrap:wrap; font-family: georgia; width: 1000px; height: auto; margin: auto; text-align: center;}
+.down {font-family:georgia;width:1000px; height:auto; margin:auto;text-align:center;font-weight:bold;display:flex;flex-wrap:wrap;}
 .ds {display: block; width: 1000px; height: 320px;}
 
 .inf {display: block; width: 1000px; text-align: center;}
 .cr {font-size: 11px; font-style: italic;}
 
-.cat {display: block; font-weight:normal; width:calc(1000px / 6);}
+.down .cat {font-weight:normal;width:calc(1000px / 6);}
 
+.cat span:first-of-type {display:block;}
 .b span:first-of-type {font-weight: bold; font-style: italic;}
 
 .d {color: #808000;}
