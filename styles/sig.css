@@ -1,4 +1,4 @@
-.down {display: block;font-family: georgia; width: 1000px; height: auto; margin: auto; text-align: center;}
+.down {display:flex; flex-wrap:wrap; font-family: georgia; width: 1000px; height: auto; margin: auto; text-align: center;}
 .ds {display: block; width: 1000px; height: 320px;}
 
 .inf {display: block; width: 1000px; text-align: center;}
