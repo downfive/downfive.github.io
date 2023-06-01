@@ -1,4 +1,4 @@
-.down {font-family: georgia; width:1000px; height:auto; margin:auto;text-align:center;display:flex;flex-wrap:wrap;}
+.down {font-family: georgia; font-size: 15px; width:1000px; height:auto; margin:auto;text-align:center;display:flex;flex-wrap:wrap;}
 .ds {display: block; width: 1000px; height: 320px; flex-basis: 100%; flex-grow: 1;}
 
 .inf {font-family: georgia; display: block; width: 1000px; text-align: center;}
