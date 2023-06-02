@@ -4,7 +4,7 @@
 .cr {font-style: italic; font-size:13px;}
 
 .down .cat {font-weight:normal;width:calc(1000px / 6);}
-img {display:block; width:1000px; height:320px;}
+#sig {display:block; width:1000px; height:320px;}
 
 .cat span:first-of-type {display:block; font-weight:bold;}
 
