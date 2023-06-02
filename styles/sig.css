@@ -1,6 +1,6 @@
 .down {font-family:georgia;width:1000px;height:auto;margin:auto;text-align:center;font-weight:normal;display:flex;flex-wrap:wrap;}
 
-#sig {display:block; width:1000px; height:320px;}
+#sig {display:block;flex-basis: 100%;width: 1000px;height: 320px;flex-grow: 1;}
 
 .inf {display: block; text-align:center; width: 1000px; flex-grow: 1;}
 .cr {font-style: italic; font-size:13px;}
