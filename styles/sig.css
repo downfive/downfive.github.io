@@ -1,14 +1,15 @@
-.down {font-family:georgia;width:1000px;height:auto;margin:auto;text-align:center;font-weight:normal;display:flex;flex-wrap:wrap;}
-.inf {font-family:georgia;display:block; text-align:center; background: url(https://i.ibb.co/0r9YtN4/down-signature-4.png);background-size: cover;flex-basis: 100%;width: 1000px;height: 320px;flex-grow: 1;}
-.cr {font-style: italic; font-size:13px; text-align:center;}
+.down {font-family: georgia; width:1000px; height:auto; margin:auto;text-align:center;font-weight:bold;display:flex;flex-wrap:wrap;}
+.info {font-family: georgia; display:block; text-align:center; background: url(https://i.ibb.co/0r9YtN4/down-signature-4.png);background-size: cover;flex-basis: 100%;width: 1000px;height: 320px;flex-grow: 1;}
+.end {font-family: georgia; display:block; text-align:center; width: 1000px; flex-grow: 1;}
+.credit {font-family:georgia; display:block; text-align:center; width: 1000px; flex-grow: 1; font-style:italic; font-size:13px;}
 
 .down .cat {font-weight:normal;width:calc(1000px / 6);}
 
-.cat span:first-of-type {display:block;}
+.cat span:first-of-type {display:block; font-weight:bold;}
 
-.d {color: #808000;}
-.b {color: #3CB371;}
-.s {color: #845D56;}
-.r {color: #68228B;}
-.rk {color: #6082B6;}
-.a {color: #8B6508;}
+.dayquill {color: #808000; --accent: #808000;}
+.birdstar {color: #3CB371; --accent: #3CB371;}
+.silverpaw {color: #845D56; --accent: #845D56;}
+.rowansong {color: #68228B; --accent: #68228B;}
+.rookpaw {color: #6082B6; --accent: #6082B6;}
+.adderdawn {color: #8B6508; --accent: #8B6508;}
