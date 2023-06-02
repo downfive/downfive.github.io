@@ -4,7 +4,7 @@
 
 .down .cat {font-weight:normal;width:calc(1000px / 6);}
 
-.cat span:first-of-type {display:block;}
+.cat span:first-of-type {display:block;font-size:15px;}
 .birdstar span:first-of-type {font-weight: bold;font-style:italic;}
 
 .setone {font-size:16px;}
