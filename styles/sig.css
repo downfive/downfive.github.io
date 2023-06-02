@@ -1,12 +1,13 @@
 .down {font-family:georgia;width:1000px;height:auto;margin:auto;text-align:center;font-weight:normal;display:flex;flex-wrap:wrap;}
 
+#sig {display:block; width:1000px; height:320px;}
+
 .inf {display: block; text-align:center; width: 1000px; flex-grow: 1;}
 .cr {font-style: italic; font-size:13px;}
 
 .down .cat {font-weight:normal;width:calc(1000px / 6);}
-#sig {display:block; background: url(https://i.ibb.co/0r9YtN4/down-signature-4.png);background-size: cover;width:1000px; height:320px;}
 
-.cat span:first-of-type {display:block; font-weight:bold;}
+.cat span:first-of-type {display:block;}
 
 .d {color: #808000;}
 .b {color: #3CB371;}
