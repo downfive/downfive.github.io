@@ -1,10 +1,11 @@
-.down {font-family: georgia; width:1000px; height:auto; margin:auto;text-align:center;font-weight:bold;display:flex;flex-wrap:wrap;}
+.down {font-family: georgia; width:1000px; height:auto; margin:auto;text-align:center;font-weight:normal;display:flex;flex-wrap:wrap;}
 .info {font-family: georgia; display:block; text-align:center; background: url(https://i.ibb.co/0r9YtN4/down-signature-4.png);background-size: cover;flex-basis: 100%;width: 1000px;height: 400px;flex-grow: 1;}
 .credit {font-family: georgia; display:block; text-align:center; width: 1000px; flex-grow: 1;}
 
 .down .cat {font-weight:normal;width:calc(1000px / 6);}
 
-.cat span:first-of-type {display:block; font-weight:bold;}
+.cat span:first-of-type {display:block;}
+.birdstar span:first-of-type {font-weight: bold;font-style:italic;}
 
 .dayquill {color: #808000; --accent: #808000;}
 .birdstar {color: #3CB371; --accent: #3CB371;}
