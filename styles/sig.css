@@ -1,5 +1,5 @@
 .down {font-family: georgia; width:1000px; height:400; margin:auto;text-align:center;font-weight:normal;display:flex;flex-wrap:wrap;}
-.info {font-family: georgia; display:block; text-align:center; background: url(https://i.ibb.co/0r9YtN4/down-signature-4.png);background-size: cover;flex-basis: 100%;width: 100px;height: 400px;flex-grow: 1;}
+.info {font-family: georgia; display:block; text-align:right; background: url(https://i.ibb.co/0r9YtN4/down-signature-4.png);background-size: cover;flex-basis: 100%;width: 100px;height: 400px;flex-grow: 1;}
 .credit {font-family: georgia; font-weight: normal; display:block; text-align:center; width: 1000px; flex-grow: 1;}
 
 .down .cat {font-weight:normal;width:calc(1000px / 6);}
