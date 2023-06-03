@@ -1,8 +1,8 @@
-.down {font-family: georgia; width:1000px; height:400; margin:auto;text-align:center;font-weight:normal;display:flex;flex-wrap:wrap;}
+.down {font-family: georgia; width:900px; height:360; margin:auto;text-align:center;font-weight:normal;display:flex;flex-wrap:wrap;}
 .info {font-family: georgia; display:block; text-align:right; background: url(https://i.ibb.co/0r9YtN4/down-signature-4.png);background-size: cover;flex-basis: 100%;width: 900px;height: 360px;flex-grow: 1;}
-.credit {font-family: georgia; font-weight: normal; display:block; text-align:center; width: 1000px; flex-grow: 1;}
+.credit {font-family: georgia; font-weight: normal; display:block; text-align:center; width: 900px; flex-grow: 1;}
 
-.down .cat {font-weight:normal;width:calc(1000px / 6);}
+.down .cat {font-weight:normal;width:calc(900px / 7);}
 
 .cat span:first-of-type {display:block;font-size:15px;}
 .birdstar span:first-of-type {font-weight: bold;font-style:italic;}
