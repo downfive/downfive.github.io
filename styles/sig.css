@@ -5,7 +5,7 @@
 .down .cat {font-weight:normal;width:calc(900px / 7);}
 
 .cat span:first-of-type {display:block;font-size:15px;}
-.birdstar span:first-of-type {font-weight: bold;font-style:italic;}
+.bd span:first-of-type {font-weight: bold;font-style:italic;}
 
 .setone {font-size:16px;}
 .settwo {font-size:13px; font-style:italic;}
