@@ -10,10 +10,10 @@
 .setone {font-size:16px;}
 .settwo {font-size:13px; font-style:italic;}
 
-.dayquill {color: #808000; --accent: #808000;}
-.birdstar {color: #3CB371; --accent: #3CB371;}
-.silverpaw {color: #845D56; --accent: #845D56;}
-.rowansong {color: #68228B; --accent: #68228B;}
-.rookpaw {color: #6082B6; --accent: #6082B6;}
-.adderdawn {color: #8B6508; --accent: #8B6508;}
-.pigeonkit {color: #20AED4; --accent: #20AED4;}
+.dq {color: #808000; --accent: #808000;}
+.bd {color: #3CB371; --accent: #3CB371;}
+.sv {color: #845D56; --accent: #845D56;}
+.rw {color: #68228B; --accent: #68228B;}
+.rk {color: #6082B6; --accent: #6082B6;}
+.ad {color: #8B6508; --accent: #8B6508;}
+.pg {color: #20AED4; --accent: #20AED4;}
