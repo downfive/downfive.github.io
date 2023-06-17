@@ -2,7 +2,7 @@
 .info {font-family: georgia; font-size:16px; display:block; text-align:right; background: url(https://i.ibb.co/0r9YtN4/down-signature-4.png);background-size: cover;flex-basis: 100%;width: 900px;height: 360px;flex-grow: 1;}
 .credit {font-family: georgia; font-weight: normal; font-size:13px; font-style: italic; display:block; text-align:center; width: 900px; flex-grow: 1;}
 
-.down .cat {font-weight:normal;width:calc(900px / 6);text-align:center;}
+.down .cat {font-weight:normal;width:calc(900px / 6);}
 
 .cat span:first-of-type {display:block;font-size:15px;}
 .bd span:first-of-type {font-weight: bold;font-style:italic;}
