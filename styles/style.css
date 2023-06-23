@@ -1,0 +1,27 @@
+body {
+    background-color:#012A36;
+    background:cover;
+}
+
+section {
+    margin:auto;
+    padding:5px;
+    background-color:#FAFBFA;
+}
+
+a {
+    font-family:georgia;
+    font-weight:normal;
+    font-size:13px;
+}
+
+.day {color: #808000; --accent: #808000;}
+.bird {color: #3CB371; --accent: #3CB371;}
+.silver {color: #845D56; --accent: #845D56;}
+.rowan {color: #68228B; --accent: #68228B;}
+.rook {color: #6082B6; --accent: #6082B6;}
+.adder {color: #8B6508; --accent: #8B6508;}
+.pidge {color: #20AED4; --accent: #20AED4;}
+.clover {color: #8FBC8F; --accent: #8FBC8F;}
+.web {color: #53868B; --accent: #53868B;}
+.newt {color: #FF6347; --accent: #FF6347;}
