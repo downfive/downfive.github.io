@@ -2,6 +2,18 @@ body {
     background-color:#012A36;
     background:cover;
     font-family:'Courier New', Courier, monospace;
+    text-align:center;
+    margin:auto;
+    width:450px;
+    height:550px;
+    padding:50px 50px 50px 0;
+    display:flex;
+    align-items:flex-end;
+    justify-content:flex-end;
+    box-sizing:border-box;
+    outline:1px solid #FAFBFA;
+    outline-offset:-15px;
+    line-height:1;
 }
 
 section {
