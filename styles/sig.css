@@ -1,4 +1,4 @@
-.down {font-family: georgia; width:1000px; height:400; margin:auto;text-align:center;font-weight:normal;display:flex;flex-wrap:wrap;}
+.down {font-family: 'Helvetica',sans-serif; width:1000px; height:400; margin:auto;text-align:center;font-weight:normal;display:flex;flex-wrap:wrap;}
 .info {font-family: georgia; font-size:16px; display:block; text-align:right; background: url(https://i.ibb.co/j68r7R5/down-signature-7.png);background-size: cover;flex-basis: 100%;width: 1000px;height: 400px;flex-grow: 1;}
 .credit {font-family: georgia; font-weight: normal; font-size:13px; font-style: italic; display:block; text-align:center; width: 1000px; flex-grow: 1;}
 
@@ -15,3 +15,4 @@
 .rk {color: #6082B6; --accent: #6082B6;}
 .ad {color: #8B6508; --accent: #8B6508;}
 .pg {color: #20AED4; --accent: #20AED4;}
+.fs {color: #2f8a7b; --accent: #2f8a7b;}
