@@ -1,57 +1,19 @@
 <head><link rel="stylesheet" href="https://github.com/downfive/downfive.github.io/blob/main/styles/plotpage.css"></head>
 <body>
-<div class="tab-container">
-    <div class="tab" onclick="openTab('home')">Home</div>
-    <div class="tab rook" onclick="openTab('rookflight')">Rookflight</div>
-    <div class="tab silver" onclick="openTab('silverhawk')">Silverhawk</div>
-    <div class="tab pigeon" onclick="openTab('pigeonpaw')">Pigeonpaw</div>
-    <div class="tab fish" onclick="openTab('fish')">Fish</div>
-</div>
-
-<div id="home" class="tab-content active-content">
-    <h2>Content for Tab 1</h2>
+<div class="tab-container"><div class="tab" onclick="openTab('tab1')">Home</div><div class="tab rook" onclick="openTab('tab2')">Rookflight</div><div class="tab silver" onclick="openTab('tab3')">Silverhawk</div><div class="tab pigeon" onclick="openTab('tab4')">Pigeonpaw</div><div class="tab fish" onclick="openTab('tab5')">Fish</div></div>
+<div id="tab1" class="tab-content active-content active-tab">
+<h2>Content for Tab 1</h2>
     <p>This is the content for Tab 1.</p>
-</div>
-
-<div id="rookflight"" class="tab-content">
+</div><div id="tab2"" class="tab-content">
     <h2>Content for Tab 2</h2>
     <p>This is the content for Tab 2.</p>
-</div>
-
-<div id="silverhawk" class="tab-content">
+</div><div id="tab3" class="tab-content">
     <h2>Content for Tab 3</h2>
     <p>This is the content for Tab 3.</p>
-</div>
-
-<div id="pigeonpaw" class="tab-content">
+</div><div id="tab4" class="tab-content">
     <h2>Content for Tab 4</h2>
     <p>This is the content for Tab 4.</p>
-</div>
-
-<div id="fish" class="tab-content">
+</div><div id="tab5" class="tab-content">
     <h2>Content for Tab 5</h2>
     <p>This is the content for Tab 5.</p>
-</div>
-
-<script>
-    function openTab(tabId) {
-        // Hide all tab contents
-        var tabContents = document.getElementsByClassName('tab-content');
-        for (var i = 0; i < tabContents.length; i++) {
-            tabContents[i].style.display = 'none';
-        }
-
-        // Remove 'active-tab' class from all tabs
-        var tabs = document.getElementsByClassName('tab');
-        for (var i = 0; i < tabs.length; i++) {
-            tabs[i].classList.remove('active-tab');
-        }
-
-        // Show the selected tab content and mark it as active
-        document.getElementById(tabId).style.display = 'block';
-        document.querySelector('[onclick="openTab(\'' + tabId + '\')"]').classList.add('active-tab');
-    }
-</script>
-
-</body>
-</html>
+</div><script src="https://github.com/downfive/downfive.github.io/blob/main/plotpage.js"></script></body>
