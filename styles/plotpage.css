@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px;
+    padding: 5px;
+    background-color: #f4f4f4;
+}
+
+.tab-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tab {
+    background-color: #ddd;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.tab-content {
+    display: none;
+}
+
+.active-tab {
+    font-style: italic;
+    background-color: #c6afaf;
+}
+
+.active-content {
+    display: block;
+}
+
+.rook {
+    color:#6082B6;
+};
+
+.silver {
+    color:#845D56;
+};
+
+.pigeon {
+    color:#20AED4;
+};
+
+.fish {
+    color:#2F8A7B;
+};
