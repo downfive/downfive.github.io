@@ -1,4 +1,4 @@
-.down {font-family: 'Helvetica',sans-serif; width:895px; height:400; margin:auto;text-align:center;font-weight:normal;display:flex;flex-wrap:wrap;}
+.down {font-family: 'Helvetica',sans-serif; width:1000px; height:450; margin:auto;text-align:center;font-weight:normal;display:flex;flex-wrap:wrap;}
 .info {font-family: georgia; font-size:16px; display:block; text-align:right; background: url(https://i.ibb.co/FmSR2Jw/down-signature-9.png);background-size: cover;flex-basis: 100%;width: 1000px;height: 400px;flex-grow: 1;}
 .credit {font-family: georgia; font-weight: normal; font-size:13px; font-style: italic; display:block; text-align:center; width: 1000px; flex-grow: 1;}
 
