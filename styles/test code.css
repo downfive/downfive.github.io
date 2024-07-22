@@ -63,6 +63,17 @@ p {
   font-size: 13px;
 }
 
+footer {
+  float: left;
+  font-size: 12px;
+  width: 200px;
+  border-top: 2px dotted #FFF;
+  border-right: 2px dotted #FFF;
+  text-transform: lowercase;
+  text-align: left;
+  color: #ED254E;
+}
+
 img.one {
     display: inline-block;
     margin-left: auto;
@@ -91,7 +102,7 @@ img.three {
 }
 
 .header {
-    height: 500px;
+    max-height: 500px;
     overflow: scroll;
     margin: 0 auto;
     padding: 10px;
