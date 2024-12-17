@@ -1,0 +1,152 @@
+/*IMPORTS*/ 
+@black = #0d0d0d;
+@black2 = #343434;
+@red = #d92323;
+@red2 = #f10808;
+@white = #fff;
+@white2 = #fff7f7;
+@fieldall = url("https://i.ibb.co/Tcntyq4/92120.png");
+@notificon = url("https://i.ibb.co/dGsxdR4/Phantom-Thieves-of-Hearts-Logo.png");
+
+/*TRAINER CARD*/
+
+/*BONUS COUNTERS*/
+
+/*FIELDS*/
+//???-type Field
+#field_field div.field[style*="unknown"] {
+  background-image: @fieldall !important;
+  background-size:cover;
+}
+
+//Normal-type Field
+#field_field div.field[style*="normal"] {
+  background-image: @fieldall !important;
+  background-size:cover;
+}
+
+//Fire-type Field
+#field_field div.field[style*="fire"] {
+  background-image: @fieldall !important;
+  background-size:cover;
+}
+
+
+//Water-type Field (1st style)
+#field_field div.field[style*="water1"] {
+  background-image: @fieldall !important;
+  background-size:cover;
+}
+
+//Water-type Field (2nd style)
+#field_field div.field[style*="water2"] {
+  background-image: @fieldall !important;
+  background-size:cover;
+}
+
+
+//Electric-type Field
+#field_field div.field[style*="electric"] {
+  background-image: @fieldall !important;
+  background-size:cover;
+}
+
+//Grass-type Field
+#field_field div.field[style*="grass"] {
+  background-image: @fieldall !important;
+  background-size:cover;
+}
+
+//Ice-type Field
+#field_field div.field[style*="ice"] {
+  background-image: @fieldall !important;
+  background-size:cover;
+}
+
+//Fighting-type Field
+#field_field div.field[style*="fighting"] {
+  background-image: @fieldall !important;
+  background-size:cover;
+}
+
+//Poison-type Field
+#field_field div.field[style*="poison"] {
+  background-image: @fieldall !important;
+  background-size:cover;
+}
+
+//Ground-type Field
+#field_field div.field[style*="ground1"] {
+  background-image: url("IMG URL") !important;
+  background-size:cover;
+}
+
+//Flying-type Field
+#field_field div.field[style*="flying"] {
+  background-image: @fieldall !important;
+  background-size:cover;
+}
+
+//Psychic-type Field
+#field_field div.field[style*="psychic"] {
+  background-image: @fieldall !important;
+  background-size:cover;
+}
+
+//Bug-type Field
+#field_field div.field[style*="bug"] {
+  background-image: @fieldall !important;
+  background-size:cover;
+}
+
+//Rock-type Field
+#field_field div.field[style*="rock"] {
+  background-image: @fieldall !important;
+  background-size:cover;
+}
+
+//Ghost-type Field
+#field_field div.field[style*="ghost"] {
+  background-image: @fieldall !important;
+  background-size:cover;
+}
+
+//Dragon-type Field
+#field_field div.field[style*="dragon"] {
+  background-image: @fieldall !important;
+  background-size:cover;
+}
+
+//Dark-type Field
+#field_field div.field[style*="dark"] {
+  background-image: @fieldall !important;
+  background-size:cover;
+}
+
+//Steel-type Field
+#field_field div.field[style*="steel"] {
+  background-image: @fieldall !important;
+  background-size:cover;
+}
+
+//Fairy-type Field
+#field_field div.field[style*="fairy"] {
+  background-image: @fieldall !important;
+  background-size:cover;
+}
+
+/*MISCELLANEOUS*/
+#announcements ul li.spacer ~ li {
+    display: none;
+}
+
+.party [data-pid] .expbar span span.small {
+    display:none;
+}
+
+#announcements ul li[data-name="Contest Voting"] {
+    display: none;
+}
+#announcements ul li[data-name="Contest Sign-Up"] {
+    display: none;
+}
