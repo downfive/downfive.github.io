@@ -20,8 +20,8 @@
 }
 
 .down .cat {
-    width: calc(1000/8);
-    text-align: center;
+    width: calc(1000px/8);
+    text align: center;
 }
 
 .credit {
