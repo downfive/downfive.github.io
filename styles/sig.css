@@ -21,6 +21,7 @@
 
 .down .cat {
     width: calc(1000/8);
+    text-align: center;
 }
 
 .credit {
