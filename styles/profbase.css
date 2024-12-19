@@ -320,7 +320,7 @@ body {
 
 .footer {
     width: auto;
-    height: 130px;
+    height: auto;
     display: flex;
     margin: 0 12px;
     justify-content: space-between;
