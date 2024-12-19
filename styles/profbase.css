@@ -8,6 +8,7 @@ p {
 
 body {
     background-color: #000;
+    margin-top: 10px;
 }
 
 .container {
@@ -38,6 +39,24 @@ body {
     flex-flow: column wrap;
     justify-content: space-between;
     height: 100%;
+}
+
+.headinfoleft, .headinforight {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    height: 90%;
+}
+
+.subappear {
+    color: #000;
+    font-family: 'Covered By Your Grace', serif;
+    font-size: 32px;
+    padding: 15px 5px 5px 15px;
+    margin: 5px;
+    align-self: flex-start;
 }
 
 .name {
@@ -75,7 +94,6 @@ body {
     width: 1020px;
     height: 500px;
     display: flex;
-    margin-top: 5px;
 }
 
 .body2 {
@@ -85,7 +103,17 @@ body {
     height: 500px;
     display: flex;
     flex-flow: row wrap;
-    margin-top: 5px;
+}
+
+.body3 {
+    background-color: #000;
+    border: 3px inset #fff;
+    width: 1020px;
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    justify-content: space-between;
 }
 
 .left-column {
@@ -95,6 +123,13 @@ body {
 
 .leftcol-soc {
     width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.leftcol-appear {
+    width: 60%;
     height: 70%;
     display: flex;
     flex-direction: column;
@@ -112,6 +147,19 @@ body {
     height: 70%;
     display: flex;
     flex-direction: column;
+}
+
+.rightcol-appear {
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: cover;
+    background-position: center;
+    margin: 10px 10px 5px 10px;
+    flex-grow: 1;
+    background: url(https://static1.squarespace.com/static/5fda73ef80cf927e3fc07e16/600062ff2939976c7ff5e4cf/6446d757ad7ed1687f18d5c2/1682427640947/_M9A6315+2.jpg?format=1500w);
 }
 
 .information {
@@ -150,6 +198,20 @@ body {
     cursor: pointer;
 }
 
+.accordion2 {
+    width: 120px;
+    height: auto;
+    overflow: hidden;
+    font-size: 24px;
+    font-family: 'Covered By Your Grace', serif;
+    border: none;
+    outline: none;
+    background-color: #4e0949;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+}
+
 .panel {
     padding: 5px;
     border: none;
@@ -159,6 +221,18 @@ body {
     overflow: scroll;
     display: none;
     width: auto;
+    max-height: 150px;
+}
+
+.panel2 {
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: #543a52;
+    color: #fff;
+    overflow: scroll;
+    display: none;
+    max-width: 200px;
     max-height: 150px;
 }
 
@@ -315,4 +389,22 @@ body {
     padding: 5px 15px 15px 5px;
     margin: 5px;
     align-self: flex-end;
+  }
+
+  .appear {
+    font-family: 'Covered By Your Grace', serif;
+    font-size: 32px;
+    color: #fff;
+    padding: 15px 5px 5px 15px;
+    margin: 5px;
+    align-self: flex-start;
+  }
+
+  .appearsub {
+    font-size: 24px;
+  }
+
+  .appearsub2 {
+    font-size: 24px;
+    color: #543a52;
   }
