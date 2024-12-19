@@ -1,0 +1,270 @@
+* {
+    margin: auto;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    width: 1020px;
+    height: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.header {
+    width: 1020px;
+    height: 250px;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0) 150px, rgba(255,255,255,1)), url(https://i.pinimg.com/736x/fd/be/1a/fdbe1ad0289ac5430341af84ee259a52.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px inset #fff;
+    border-image: linear-gradient(to bottom, red 200px, rgba(255,255,255,1)) 1;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.headinfo {
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.name {
+    font-family: "Covered By Your Grace", serif;
+    font-size: 50px;
+    color: #fff;
+    padding: 15px 5px 5px 15px;
+    margin: 5px;
+    align-self: flex-start;
+}
+
+.subinfo {
+    font-family: "Covered By Your Grace", serif;
+    font-size: 30px;
+    color: #000;
+    padding: 5px 5px 15px 5px;
+    margin: 5px;
+    align-self: flex-end;
+}
+
+.headshot { 
+    width: 250px;
+    height: 100%;
+    border: 5px inset;
+    border-image: linear-gradient(to bottom, red 200px, rgba(255,255,255,1)) 1;
+    background: url(https://i.pinimg.com/736x/21/c2/15/21c215bec4bb891c635a4b12b79c1e1a.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: -5px;
+}
+
+.body {
+    background-color: #000;
+    border: 3px inset #fff;
+    width: 1020px;
+    height: 500px;
+    display: flex;
+    margin-top: 5px;
+}
+
+.body2 {
+    background-color: #000;
+    border: 3px inset #fff;
+    width: 1020px;
+    height: 500px;
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 5px;
+}
+
+.left-column {
+    width: 70%;
+    height: 100%;
+}
+
+.right-column {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.information {
+    width: auto;
+    height: 250px;
+    overflow: scroll;
+    border: 3px inset #fff;
+    color: #fff;
+    background-color: #543a52;
+    margin: 10px;
+    padding: 10px;
+}
+
+.information2 {
+    width: auto;
+    height: 300px;
+    overflow: scroll;
+    border: 3px inset #fff;
+    color: #fff;
+    background-color: #543a52;
+    margin: 10px;
+    padding: 10px;
+}
+
+.divider {
+    width: auto;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 3px inset #fff;
+    color: #fff;
+    background-color: #543a52;
+}
+
+.sidebar {
+    width: auto;
+    height: auto;
+    flex-grow: 1;
+    margin: 10px 10px 5px 10px;
+    background:url(https://inkart.net/wp-content/uploads/2022/02/persian_leopard.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sidebar-divider {
+    width: auto;
+    height: 20px;
+    padding: 10px;
+    border: 3px inset #fff;
+    color: #fff;
+    background-color: #543a52;
+    margin: 5px 10px 10px 10px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.footer {
+    width: auto;
+    height: 130px;
+    display: flex;
+    margin: 0 12px;
+    justify-content: space-between;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    margin: auto;
+}
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    height: 36px;
+    background-color: #000;
+    font-family: 'Covered By Your Grace', serif;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    margin-left: -60px;
+    margin-top: -13px;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+}
+
+.link-img1 {
+    width: 200px;
+    height: 100%;
+    background:url(https://i.natgeofe.com/k/86c7c0fe-43f4-4bf8-b348-ccdd48528116/Leopard-Mom-Cub_Leopards_KIDS_0621_3x4.jpg);
+    background-size:cover;
+    background-position:center;
+    border: 3px inset #fff;
+}
+
+.link-img2 {
+    width: 200px;
+    height: 100%;
+    background:url(https://lazoo.org/wp-content/uploads/2023/05/Snow-Leopard-Female-JEP_1427-1-scaled.jpg);
+    background-size:cover;
+    background-position:center;
+    border: 3px inset #fff;
+}
+
+.link-img3 {
+    width: 200px;
+    height: 100%;
+    background:url(https://i.natgeofe.com/k/86c7c0fe-43f4-4bf8-b348-ccdd48528116/Leopard-Mom-Cub_Leopards_KIDS_0621_3x4.jpg);
+    background-size:cover;
+    background-position:center;
+    border: 3px inset #fff;
+    color: #fff;
+    }
+
+.link-img4 {
+    width: 200px;
+    height: 100%;
+    background:url(https://lazoo.org/wp-content/uploads/2023/05/Snow-Leopard-Female-JEP_1427-1-scaled.jpg);
+    background-size:cover;
+    background-position:center;
+    border: 3px inset #fff;
+}
+
+.sidebar-divider .credit-text {
+    visibility: hidden;
+    width: 200px;
+    height: auto;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    padding: 8px 0;
+    margin-left: -80px;
+    bottom: 125%;
+    left: 50%;
+}
+
+.sidebar-divider .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+
+  .postrait {
+    font-family: 'Covered By Your Grace', serif;
+    font-size: 48px;
+    color: #fff;
+    padding: 15px 5px 5px 15px;
+    margin: 5px;
+    align-self: flex-start;
+  }
+
+  .negtrait {
+    font-family: 'Covered By Your Grace', serif;
+    font-size: 48px;
+    color: #000;
+    padding: 5px 15px 15px 5px;
+    margin: 5px;
+    align-self: flex-end;
+  }
+
+  .tab-content {
+    display: none;
+  }
