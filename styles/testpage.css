@@ -85,14 +85,39 @@ a {
     align-self: flex-start;
 }
 
-.subinfo {
+.subtool {
+    position: relative;
+    display: inline-block;
     font-family: "Covered By Your Grace", serif;
     font-size: 30px;
     color: #fff;
     padding: 5px 5px 15px 5px;
     margin: 5px;
-    align-self: flex-end;
+    text-align: right;
 }
+
+.subtool .subtooltext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #fff;
+    background-color: rgba(60,65,100,.75);
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.subtool:hover .subtooltext {
+    visibility: visible;
+    opacity: 1;
+  }
 
 .headshot { 
     width: 250px;
