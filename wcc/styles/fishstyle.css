@@ -8,7 +8,7 @@ p {
 }
 
 body {
-    background-color: #111111;
+    background-color: #233329;
     margin-top: 10px;
 }
 
@@ -16,37 +16,43 @@ body {
     width: 1020px;
     height: 800px;
     font-family: Arial, Helvetica, sans-serif;
-    position: relative;
     font-size: 15px;
+    position: relative;
+    margin-top: 100px;
 }
 
 a {
-    color: inherit;
+    color: #4ebdb6;
     text-decoration: none;
-    border-bottom: 2px dotted #6D2626;
+    border-bottom: 2px dotted #2F8A7B;
+}
+
+.credit-text a {
+    color: #01756e;
 }
 
 /* Header */
 .lyric {
     font-family: 'Shadows Into Light', serif;
     font-size: 48px;
-    color: #c80f0f;
+    color: #fff;
     z-index: 10;
-    top: -50px;
     right: 150px;
+    top: -50px;
     text-align: center;
     position: absolute;
+    color: #d2fef4;
 }
 
 .header {
     width: 1020px;
     height: 250px;
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0) 150px, rgba(17,17,17,1)), url(https://i.ibb.co/bmjNY6L/silver-header.png);
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0) 150px, rgba(35,51,41,1)), url(https://i.pinimg.com/736x/e8/10/ae/e810aef887d0e9c7f06bf43ee3af70bc.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border: 5px inset;
-    border-image: linear-gradient(to bottom, rgba(109,38,38,1) 200px, rgba(17,17,17,1)) 1;
+    border-image: linear-gradient(to bottom, rgba(47,138,123,1) 200px, rgba(35,51,41,1)) 1;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -84,8 +90,6 @@ a {
     font-family: 'Quintessential', serif;
     font-size: 64px;
     color: #fff;
-    background-color: rgba(109,38,38,.1);
-    border-radius: 3px;
     padding: 15px 5px 5px 15px;
     margin: 5px;
     align-self: flex-start;
@@ -96,7 +100,6 @@ a {
     display: inline-block;
     font-family: 'Geo', serif;
     font-size: 30px;
-    color: #fff;
     padding: 5px 5px 15px 5px;
     margin: 5px;
     text-align: right;
@@ -105,8 +108,8 @@ a {
 .subtool .subtooltext {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    color: #fff;
-    background-color: rgba(109,38,38,.75);
+    color: #111111;
+    background-color: rgba(47,138,123,.75);
     text-align: center;
     padding: 5px;
     border-radius: 5px;
@@ -126,11 +129,10 @@ a {
   }
 
 .headshot { 
-    position: relative;
     width: 250px;
     height: 100%;
     border: 5px inset;
-    border-image: linear-gradient(to bottom, rgba(109,38,38,1) 200px, rgba(17,17,17,1)) 1;
+    border-image: linear-gradient(to bottom, rgba(47,138,123,1) 200px, rgba(35,51,41,1)) 1;
     background: url(HEADSHOT_URL);
     background-size: cover;
     background-position: center;
@@ -170,15 +172,15 @@ a {
 
   .appearsub2 {
     font-size: 24px;
-    color: #44475b;
+    color: #dbf5eb;
   }
 
 /* Body */
 .body {
     margin-top: 15px;
-    background-color: #111111;
+    background-color: #233329;
     border: 3px inset;
-    border-image: linear-gradient(to top, rgba(109,38,38,1) 200px, rgba(17,17,17,1)) 1;
+    border-image: linear-gradient(to top, rgba(47,138,123,1) 200px, rgba(35,51,41,1)) 1;
     width: 1020px;
     height: 500px;
     display: flex;
@@ -186,9 +188,9 @@ a {
 
 .body2 {
     margin-top: 15px;
-    background-color: #111111;
+    background-color: #233329;
     border: 3px inset;
-    border-image: linear-gradient(to top, rgba(109,38,38,1) 200px, rgba(17,17,17,1)) 1;
+    border-image: linear-gradient(to top, rgba(47,138,123,1) 200px, rgba(35,51,41,1)) 1;
     width: 1020px;
     height: 500px;
     display: flex;
@@ -197,9 +199,9 @@ a {
 
 .body3 {
     margin-top: 15px;
-    background-color: #111111;
+    background-color: #233329;
     border: 3px inset;
-    border-image: linear-gradient(to top, rgba(109,38,38,1) 200px, rgba(17,17,17,1)) 1;
+    border-image: linear-gradient(to top, rgba(47,138,123,1) 200px, rgba(35,51,41,1)) 1;
     width: 1020px;
     height: 500px;
     display: flex;
@@ -252,9 +254,9 @@ a {
     width: auto;
     height: 250px;
     overflow: scroll;
-    border: 3px inset #6d2626;
-    color: #fff;
-    background-color: #5c5858;
+    border: 3px inset #2F8A7B;
+    color: #111111;
+    background-color: #dbf5eb;
     margin: 10px;
     padding: 10px;
 }
@@ -263,9 +265,9 @@ a {
     width: auto;
     height: auto;
     overflow: scroll;
-    border: 3px inset #6d2626;
-    color: #fff;
-    background-color: #5c5858;
+    border: 3px inset #2F8A7B;
+    color: #111111;
+    background-color: #dbf5eb;
     margin: 10px;
     padding: 10px;
 }
@@ -284,12 +286,12 @@ a {
 }
 
 .immediate {
-    border-bottom: 2px dashed #c80f0f;
+    border-bottom: 2px dashed #2F8A7B;
     margin-bottom: 5px;
 }
 
 .extended {
-    border-top: 2px dashed #c80f0f;
+    border-top: 2px dashed #2F8A7B;
     margin-top: 5px;
 }
 
@@ -300,9 +302,9 @@ a {
     text-align: center;
     padding: 10px;
     margin: 10px;
-    border: 3px inset #6d2626;
-    color: #fff;
-    background-color: #5c5858;
+    border: 3px inset #2F8A7B;
+    color: #111111;
+    background-color: #dbf5eb;
 }
 
 .sidebar {
@@ -310,7 +312,7 @@ a {
     height: auto;
     flex-grow: 1;
     margin: 10px 10px 5px 10px;
-    background:url(https://i.pinimg.com/736x/02/52/01/025201e8c9a2301917eff80ef6c460e4.jpg);
+    background:url(https://i.pinimg.com/736x/38/64/46/38644624350a37ce5b18ee20f795b135.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -320,7 +322,7 @@ a {
     height: auto;
     flex-grow: 1;
     margin: 10px 10px 5px 10px;
-    background:url(https://64.media.tumblr.com/919fbbc71831acc527e28b30da2020af/tumblr_nhmuzrkb061rq4uvro1_1280.jpg);
+    background:url(https://i.pinimg.com/736x/47/9e/c1/479ec16e3d9773f6c54dd9876e130346.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -329,9 +331,9 @@ a {
     width: auto;
     height: 20px;
     padding: 10px;
-    border: 3px inset #6d2626;
-    color: #fff;
-    background-color: #5c5858;
+    border: 3px inset #2F8A7B;
+    color: #111111;
+    background-color: #dbf5eb;
     margin: 5px 10px 10px 10px;
     text-align: center;
     position: relative;
@@ -366,38 +368,38 @@ a {
 .link-img1 {
     width: 200px;
     height: 100%;
-    background:url(https://i.pinimg.com/736x/68/52/11/685211e68438e1ad7fff73415e5c4f96.jpg);
+    background:url(https://i.pinimg.com/736x/e8/2a/15/e82a15dace0bdeb7859726fa6d588eb2.jpg);
     background-size:cover;
     background-position:center;
-    border: 3px inset #6d2626;
+    border: 3px inset #2F8A7B;
 }
 
 .link-img2 {
     width: 200px;
     height: 100%;
-    background:url(https://i.pinimg.com/736x/dc/b8/3e/dcb83e1c8c8526f1eefccb38752f4639.jpg);
+    background:url(https://i.pinimg.com/736x/28/04/94/28049430a1a2aa2c26d77a1e7c727354.jpg);
     background-size:cover;
     background-position:center;
-    border: 3px inset #6d2626;
+    border: 3px inset #2F8A7B;
 }
 
 .link-img3 {
     width: 200px;
     height: 100%;
-    background:url(https://i.pinimg.com/736x/9b/d8/2f/9bd82fe79bdd84c0b33ffc9fa3715f8d.jpg);
+    background:url(https://i.pinimg.com/736x/54/43/28/5443287bc721716c1100ec682311ee10.jpg);
     background-size:cover;
     background-position:center;
-    border: 3px inset #6d2626;
-    color: #fff;
+    border: 3px inset #2F8A7B;
+    color: #111111;
 }
 
 .link-img4 {
     width: 200px;
     height: 100%;
-    background:url(https://i.pinimg.com/736x/24/7e/c8/247ec8c40f36a0c0d7ea6005a8f35d6c.jpg);
+    background:url(https://i.pinimg.com/736x/8b/17/3f/8b173f40cb8f206112a86c57c14c5f00.jpg);
     background-size:cover;
     background-position:center;
-    border: 3px inset #6d2626;
+    border: 3px inset #2F8A7B;
 }
 
 /* JS */
@@ -409,7 +411,7 @@ a {
     font-family: 'Sour Gummy', serif;
     border: none;
     outline: none;
-    background-color: #6d2626;
+    background-color: #047a4c;
     color: #fff;
     padding: 5px;
     cursor: pointer;
@@ -423,7 +425,7 @@ a {
     font-family: 'Sour Gummy', serif;
     border: none;
     outline: none;
-    background-color: #6d2626;
+    background-color: #047a4c;
     color: #fff;
     padding: 5px;
     cursor: pointer;
@@ -441,10 +443,10 @@ a {
 
 .panel {
     padding: 5px;
-    border: 1px dashed #6d2626;
+    border: 1px dashed #2F8A7B;
     outline: none;
-    background-color: #5c5858;
-    color: #fff;
+    background-color: #dbf5eb;
+    color: #111111;
     overflow: scroll;
     display: none;
     width: 90%;
@@ -453,9 +455,9 @@ a {
 
 .panel2 {
     padding: 5px;
-    border: 1px dashed #6d2626;
-    background-color: #5c5858;
-    color: #fff;
+    border: 1px dashed #2F8A7B;
+    background-color: #dbf5eb;
+    color: #111111;
     overflow: scroll;
     display: none;
     width: 200px;
@@ -474,11 +476,11 @@ a {
 .tooltip .tooltip-text {
     visibility: hidden;
     width: 130px;
-    height: 36px;
-    background-color: rgba(109,38,38,.75);
+    height: auto;
+    background-color: rgba(47,138,123,.75);
     font-family: 'Geo', serif;
     font-size: 25px;
-    color: #fff;
+    color: #111111;
     text-align: center;
     padding: 5px 0;
     border-radius: 5px;
@@ -498,8 +500,8 @@ a {
     visibility: hidden;
     width: 200px;
     height: auto;
-    background-color: rgba(17,17,17,.75);
-    color: #fff;
+    background-color: rgba(219,235,245,.75);
+    color: #111111;
     text-align: center;
     position: absolute;
     z-index: 1;
