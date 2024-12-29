@@ -8,7 +8,7 @@ p {
 }
 
 body {
-    background-color: #000;
+    background-color: #590655;
     margin-top: 10px;
 }
 
@@ -22,9 +22,9 @@ body {
 }
 
 a {
-    color: #656c9d;
+    color: #48bede;
     text-decoration: none;
-    border-bottom: 2px dotted #656c9d;
+    border-bottom: 2px dotted #48bede;
 }
 
 /* Header */
@@ -33,7 +33,7 @@ a {
     font-size: 48px;
     color: #fff;
     z-index: 10;
-    right: 150px;
+    right: 250px;
     top: -50px;
     text-align: center;
     position: absolute;
@@ -42,12 +42,12 @@ a {
 .header {
     width: 1020px;
     height: 250px;
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0) 150px, rgba(0,0,0,1)), url(HEAD_IMG);
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0) 150px, rgba(89,6,85,1)), url(https://i.pinimg.com/736x/45/d9/a0/45d9a01b713a0f39b38559cb16fa551d.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border: 5px inset;
-    border-image: linear-gradient(to bottom, rgba(60,65,100,1) 200px, rgba(0,0,0,1)) 1;
+    border-image: linear-gradient(to bottom, rgba(104,34,139,1) 200px, rgba(89,6,85,1)) 1;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -105,7 +105,7 @@ a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: #fff;
-    background-color: rgba(60,65,100,.75);
+    background-color: rgba(104,34,139,.75);
     text-align: center;
     padding: 5px;
     border-radius: 5px;
@@ -128,7 +128,7 @@ a {
     width: 250px;
     height: 100%;
     border: 5px inset;
-    border-image: linear-gradient(to bottom, rgba(60,65,100,1) 200px, rgba(0,0,0,1)) 1;
+    border-image: linear-gradient(to bottom, rgba(104,34,139,1) 200px, rgba(89,6,85,1)) 1;
     background: url(HEADSHOT_URL);
     background-size: cover;
     background-position: center;
@@ -176,7 +176,7 @@ a {
     margin-top: 15px;
     background-color: #111111;
     border: 3px inset;
-    border-image: linear-gradient(to top, rgba(60,65,100,1) 200px, rgba(0,0,0,1)) 1;
+    border-image: linear-gradient(to top, rgba(104,34,139,1) 200px, rgba(89,6,85,1)) 1;
     width: 1020px;
     height: 500px;
     display: flex;
@@ -186,7 +186,7 @@ a {
     margin-top: 15px;
     background-color: #111111;
     border: 3px inset;
-    border-image: linear-gradient(to top, rgba(60,65,100,1) 200px, rgba(0,0,0,1)) 1;
+    border-image: linear-gradient(to top, rgba(104,34,139,1) 200px, rgba(89,6,85,1)) 1;
     width: 1020px;
     height: 500px;
     display: flex;
@@ -197,7 +197,7 @@ a {
     margin-top: 15px;
     background-color: #111111;
     border: 3px inset;
-    border-image: linear-gradient(to top, rgba(60,65,100,1) 200px, rgba(0,0,0,1)) 1;
+    border-image: linear-gradient(to top, rgba(104,34,139,1) 200px, rgba(89,6,85,1)) 1;
     width: 1020px;
     height: 500px;
     display: flex;
@@ -308,7 +308,7 @@ a {
     height: auto;
     flex-grow: 1;
     margin: 10px 10px 5px 10px;
-    background:url(SIDEIMG);
+    background:url(https://i.pinimg.com/736x/72/63/eb/7263eb4310e5dd460937492734c3c0e7.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -318,7 +318,7 @@ a {
     height: auto;
     flex-grow: 1;
     margin: 10px 10px 5px 10px;
-    background:url(FACECLAIM);
+    background:url(https://www.barnedroem.de/pictures/3tomcat/10-ybro/R0526Ybro-2y7m10.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -364,7 +364,7 @@ a {
 .link-img1 {
     width: 200px;
     height: 100%;
-    background:url(FOOTIMG1);
+    background:url(https://i.pinimg.com/736x/de/2c/83/de2c83545de9a4328d286f7ab2a2f853.jpg);
     background-size:cover;
     background-position:center;
     border: 3px inset #3c4164;
@@ -373,7 +373,7 @@ a {
 .link-img2 {
     width: 200px;
     height: 100%;
-    background:url(FOOTIMG2);
+    background:url(https://i.pinimg.com/736x/50/49/a0/5049a0366c275946f6274b0bb58191e1.jpg);
     background-size:cover;
     background-position:center;
     border: 3px inset #3c4164;
@@ -382,7 +382,7 @@ a {
 .link-img3 {
     width: 200px;
     height: 100%;
-    background:url(FOOTIMG3);
+    background:url(https://i.pinimg.com/736x/d8/cb/60/d8cb6039384ee9114d604261c116f1e6.jpg);
     background-size:cover;
     background-position:center;
     border: 3px inset #3c4164;
@@ -392,7 +392,7 @@ a {
 .link-img4 {
     width: 200px;
     height: 100%;
-    background:url(FOOTIMG4);
+    background:url(https://i.pinimg.com/736x/35/0d/9f/350d9f1c20f1a8bb8f3907774099d4d4.jpg);
     background-size:cover;
     background-position:center;
     border: 3px inset #3c4164;
@@ -473,7 +473,7 @@ a {
     visibility: hidden;
     width: 130px;
     height: auto;
-    background-color: rgba(60,65,100,.75);
+    background-color: rgba(104,34,139,.75);
     font-family: 'Geo', serif;
     font-size: 25px;
     color: #fff;
@@ -496,7 +496,7 @@ a {
     visibility: hidden;
     width: 200px;
     height: auto;
-    background-color: rgba(0,0,0,.75);
+    background-color: rgba(89,6,85,.75);
     color: #fff;
     text-align: center;
     position: absolute;
