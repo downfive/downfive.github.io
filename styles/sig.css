@@ -1,5 +1,5 @@
 .img {
-    width: 1000px;
+    width: 1008px;
     height: 450px;
     background: url(https://i.ibb.co/FmSR2Jw/down-signature-9.png);
     background-size: cover;
@@ -11,17 +11,18 @@
 
 .down {
     font-family: 'Helvetica',sans-serif;
-    width: 1000px;
+    width: 1008px;
     height: auto;
     margin: auto;
     text-align: center;
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
 }
 
 .down .cat {
-    width: calc(1000px/9);
+    width: calc(1008px/9);
     text-align: center;
+    margin: 1px;
 }
 
 .credit {
@@ -29,7 +30,7 @@
     font-style: italic;
     display: block;
     text-align: center;
-    width: 1000px;
+    width: 1008px;
 }
 
 .cat span:first-of-type {
