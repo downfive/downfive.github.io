@@ -1,5 +1,5 @@
 .img {
-    width: 1000px;
+    width: 1008px;
     height: 450px;
     background: url(https://i.ibb.co/FmSR2Jw/down-signature-9.png);
     background-size: cover;
@@ -11,7 +11,7 @@
 
 .down {
     font-family: 'Helvetica',sans-serif;
-    width: 1000px;
+    width: 1008px;
     height: auto;
     margin: auto;
     text-align: center;
@@ -20,7 +20,7 @@
 }
 
 .down .cat {
-    width: calc(1000px/8);
+    width: calc(1008px/8);
     text-align: center;
     margin: 1px;
 }
@@ -30,7 +30,7 @@
     font-style: italic;
     display: block;
     text-align: center;
-    width: 1000px;
+    width: 1008px;
 }
 
 .cat span:first-of-type {
