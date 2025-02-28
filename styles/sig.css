@@ -39,47 +39,47 @@
 
 
 /* DIALOGUE COLOR CODES */
-.rs {
+.drs {
     color: #68228B;
     --accent: #68228B;
 }
 
-.rf {
+.drf {
     color: #6082B6;
     --accent: #6082B6;
 }
 
-.sh {
+.dsh {
     color: #6D2626;
     --accent: #6D2626;
 }
 
-.ps {
+.dps {
     color: #20AED4;
     --accent: #20AED4;
 }
 
-.fp {
+.dfp {
     color: #2F8A7B;
     --accent: #2F8A7B;
 }
 
-.ff {
+.dff {
     color: #E36630;
     --accent: #E36630;
 }
 
-.fs {
+.dfs {
     color: #9964B1;
     --accent: #9964B1;
 }
 
-.e {
+.de {
     color: #E89C05;
     --accent: #E89C05;
 }
 
-.sk {
+.dsk {
     color: #0091B5;
     --accent: #0091B5;
 }
