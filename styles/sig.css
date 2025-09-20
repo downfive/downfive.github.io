@@ -20,7 +20,7 @@
 }
 
 .down .cat {
-    width: calc(1008px/6);
+    width: calc(1008px/7);
     text-align: center;
 }
 
@@ -87,4 +87,9 @@
 .dbk {
     color: #C12F0F;
     --accent: #C12F0F;
+}
+
+.dok {
+    color: #46682C;
+    --accent: #46682C;
 }
