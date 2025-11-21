@@ -1,5 +1,5 @@
 /* IMPORT VALUES */
-:root {
+.page {
     --bg: #2D2D42;
     --bg-gradi1: rgba(45,45,66,0);
     --bg-gradi2: rgba(45,45,66,.8);
@@ -54,6 +54,11 @@
 */
 
 /* FULL PAGE */
+.page {
+    width: 100%;
+    height: 100%;
+}
+
 .hub {
     width: 80%;
     height: 100%;
