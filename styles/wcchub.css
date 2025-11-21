@@ -1,135 +1,351 @@
-* {
-    margin: auto;
+/* IMPORT VALUES */
+:root {
+    --bg: #2D2D42;
+    --bg-gradi1: rgba(45,45,66,0);
+    --bg-gradi2: rgba(45,45,66,.8);
+    --text: #F2F2F2;
+    --header: url(https://i.pinimg.com/1200x/a5/08/9c/a5089c6aac2a30d95d90fc64af9510f3.jpg);
+    --sidebar: url(https://i.pinimg.com/1200x/dc/b2/22/dcb2224bb30d01296b8a61fb46a545a5.jpg);
+    --title: #D48F4E;
+    --border: #D6C9BC;
+    --credbox: #875924;
+    /* CHARACTER COLORS
+    LIVING */
+    --drook: #6082B6;
+    --dpidge: #20AED4;
+    --dshrike: #0091B5;
+    --dsilver: #501F1F;
+    --dfish: #2F8A7B;
+    --dbur: #701501;
+    --dowl: #46682C;
+    /* DECEASED */
+    --dday: #46682C;
+    --dclover: #8FBC8F;
+    --dtwilight: #5B31AD;
+    --drowan: #68228B;
+    --dadder: #8B6508;
+    --dfalcon: #E36630;
+    --dweb: #53868B;
+    --dnewt: #FF6347;
+    --dbird: #3CB371;
+    --dfox: #9964B1;
+    --dezio: #E89C05;
 }
 
-p {
-    margin: 0;
+/* FONT
+.cinzel-decorative-regular {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-body {
-    background-color: #111111;
-    margin-top: 10px;
+.cinzel-decorative-bold {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
-.container {
-    width: 1020px;
-    height: 800px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+.inter-wcc {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
+/* FULL PAGE */
+.hub {
+    width: 80%;
+    height: 100%;
+    background-color: var(--bg);
+    color: var(--color);
+    font-family: "Inter", sans-serif;
+    font-size: 14pt;
+}
+
+/* SPECIFIC ELEMENTS */
+h1 {
+    color: var(--title);
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-size: 32pt;
+}
+
+h2 {
+    color: var(--title);
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-size: 28pt;
 }
 
 .header {
-    width: 1020px;
+    width: 100%;
     height: 250px;
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0) 200px, rgba(17,17,17,1)), url(https://i.pinimg.com/originals/13/ce/97/13ce97db957541ba1c2f19423ce7b2ba.jpg);
+    margin-top: 10px;
+    background-image: linear-gradient(to bottom, var(--bg-gradi1) 90%, var(--bg-gradi2) 10%) var(--header);
     background-size: cover;
     background-repeat: no-repeat;
-    border-image: linear-gradient(to bottom, #296487 200px, rgba(255,255,255,0));
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-    align-content: space-around;
+    border: 2px groove var(--border);
 }
 
-.body {
-    background-color: #111111;
-    border: 3px inset #92dbe7;
-    width: 1020px;
-    height: 500px;
+.container {
+    width: 100%;
+    height: 80%;
+    margin-top: 10px;
+    padding: 10px;
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row wrap;
     justify-content: space-evenly;
     align-content: center;
-    margin-top: 15px;
 }
 
-.left-column {
+.left {
     width: 70%;
     height: 100%;
+    padding-right: 10px;
 }
 
-.right-column {
+.right {
     width: 30%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.accordion {
-    width: 90%;
-    height: auto;
-    overflow: hidden;
-    font-size: 48px;
-    font-family: 'Covered By Your Grace', serif;
-    border: 2px dashed #fff;
-    border-radius: 5px;
-    outline: none;
-    background-color: #92dbe7;
-    color: #111111;
-    padding: 5px;
-    cursor: pointer;
-    margin: 30px
-}
-
-.panel {
-    padding: 5px;
-    border: none;
-    outline: none;
-    background-color: #296487;
-    color: #fff;
-    overflow: scroll;
-    display: none;
-    width: 90%;
-    max-height: 150px;
-    margin-bottom: 15px;
-    position: relative;
-}
-
-.sidebar {
-    width: auto;
-    height: auto;
-    flex-grow: 1;
-    margin: 10px 10px 5px 10px;
-    background:url(https://i.redd.it/some-manga-wallpapers-i-made-theyre-basically-all-white-v0-cdly04bv4loa1.jpg?width=1125&format=pjpg&auto=webp&s=879bf21765bd414e48e91ccaa8aee8327977aeaf);
+    height: 70%;
+    background-image: var(--sidebar);
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.sidebar-divider {
-    width: auto;
-    height: 20px;
-    padding: 10px;
-    border: 3px inset #92dbe7;
-    color: #fff;
-    background-color: #296487;
-    margin: 5px 10px 10px 10px;
-    text-align: center;
-    position: relative;
-    cursor: pointer;
+/* CREDITS */
+.credit {
+    width: 30%;
+    height: 30%;
+    background-color: var(--credbox);
+    color: var(--bg);
+    border-radius: 2px;
+
+    .credtext {
+        background-color: var(--bg-gradi2);
+        color: var(--text);
+        visibility: hidden;
+        text-align: justify;
+        padding: 6px;
+        position: relative;
+        z-index: 1;
+        bottom: 80%;
+    }
+
+    .show {
+        visibility: visible;
+        -webkit-animation: fadeIn 1s;
+        animation: fadeIn 1s;
+    }
 }
 
-.sidebar-divider .credit-text {
-    visibility: hidden;
-    width: 200px;
-    height: auto;
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    position: absolute;
-    z-index: 1;
-    padding: 8px 0;
-    margin-left: -80px;
-    bottom: 125%;
-    left: 50%;
+/* CHARACTER NAMES 
+LIVING */
+.rook {
+    color: var(--drook);
 }
 
-.sidebar-divider .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s
+.pidge {
+    color: var(--dpidge);
 }
 
-.cat {
-    color: #fff;
+.shrike {
+    color: var(--dshrike);
 }
 
+.silver {
+    color: var(--dsilver);
+}
+
+.fish {
+    color: var(--dfish);
+}
+
+.burdock {
+    color: var(--dbur);
+}
+
+.owl {
+    color: var(--dowl);
+}
+/* DECEASED */
+.day {
+    color: var(--dday);
+}
+
+.clover {
+    color: var(--dclover);
+}
+
+.twilight {
+    color: var(--dtwilight);
+}
+
+.rowan {
+    color: var(--drowan);
+}
+
+.adder {
+    color: var(--dadder);
+}
+
+.falcon {
+    color: var(--dfalcon);
+}
+
+.web {
+    color: var(--dweb);
+}
+
+.newt {
+    color: var(--dnewt);
+}
+
+.bird {
+    color: var(--dbird);
+}
+
+.fox {
+    color: var(--dfox);
+}
+
+.ezio {
+    color: var(--dezio);
+}
+
+/* OLD CODE
+    * {
+        margin: auto;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    body {
+        background-color: #111111;
+        margin-top: 10px;
+    }
+
+    .container {
+        width: 1020px;
+        height: 800px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+
+    .header {
+        width: 1020px;
+        height: 250px;
+        background-image: linear-gradient(to bottom, rgba(255,255,255,0) 200px, rgba(17,17,17,1)), url(https://i.pinimg.com/originals/13/ce/97/13ce97db957541ba1c2f19423ce7b2ba.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-image: linear-gradient(to bottom, #296487 200px, rgba(255,255,255,0));
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        align-content: space-around;
+    }
+
+    .body {
+        background-color: #111111;
+        border: 3px inset #92dbe7;
+        width: 1020px;
+        height: 500px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-content: center;
+        margin-top: 15px;
+    }
+
+    .left-column {
+        width: 70%;
+        height: 100%;
+    }
+
+    .right-column {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .accordion {
+        width: 90%;
+        height: auto;
+        overflow: hidden;
+        font-size: 48px;
+        font-family: 'Covered By Your Grace', serif;
+        border: 2px dashed #fff;
+        border-radius: 5px;
+        outline: none;
+        background-color: #92dbe7;
+        color: #111111;
+        padding: 5px;
+        cursor: pointer;
+        margin: 30px
+    }
+
+    .panel {
+        padding: 5px;
+        border: none;
+        outline: none;
+        background-color: #296487;
+        color: #fff;
+        overflow: scroll;
+        display: none;
+        width: 90%;
+        max-height: 150px;
+        margin-bottom: 15px;
+        position: relative;
+    }
+
+    .sidebar {
+        width: auto;
+        height: auto;
+        flex-grow: 1;
+        margin: 10px 10px 5px 10px;
+        background:url(https://i.redd.it/some-manga-wallpapers-i-made-theyre-basically-all-white-v0-cdly04bv4loa1.jpg?width=1125&format=pjpg&auto=webp&s=879bf21765bd414e48e91ccaa8aee8327977aeaf);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sidebar-divider {
+        width: auto;
+        height: 20px;
+        padding: 10px;
+        border: 3px inset #92dbe7;
+        color: #fff;
+        background-color: #296487;
+        margin: 5px 10px 10px 10px;
+        text-align: center;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .sidebar-divider .credit-text {
+        visibility: hidden;
+        width: 200px;
+        height: auto;
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        position: absolute;
+        z-index: 1;
+        padding: 8px 0;
+        margin-left: -80px;
+        bottom: 125%;
+        left: 50%;
+    }
+
+    .sidebar-divider .show {
+        visibility: visible;
+        -webkit-animation: fadeIn 1s;
+        animation: fadeIn 1s
+    }
+
+    .cat {
+        color: #fff;
+    }
+*/

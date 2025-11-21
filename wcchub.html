@@ -1,70 +1,136 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Home | WCC Characters</title> <!-- TITLE -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Inter:ital,opsz@0,14..32;1,14..32&display=swap" rel="stylesheet">
+        <!-- CSS -->
+    </head>
 
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
-    <link href="styles/wcchub.css" rel="stylesheet" type="text/css">
-</head>
-
-<body>
-    <div class="container">
-        <div>
+    <body>
+        <!-- PAGE SET -->
+         <div class="hub">
             <div class="header"></div>
-            <div class="body">
-                <div class="left-column">
-                    <button class="accordion">LIVING</button>
-                    <div class="panel">
-                        <p><a href="wcc/characters/rowan.html" class="cat" target="_blank">Rowansong of RiverClan</a></p>
-                        <p><a href="wcc/characters/rook.html" class="cat" target="_blank">Rookflight of RiverClan</a></p>
-                        <p><a href="wcc/characters/silver.html" class="cat" target="_blank">Silverhawk of ShadowClan</a></p><br>
-                        <p><a href="wcc/characters/pigeon.html" class="cat" target="_blank">Pigeonsun of RiverClan</a></p></br>
-                        <p><a href="wcc/characters/fish.html" class="cat" target="_blank">Fishpaw of ShadowClan</a></p><br>
-                        <p><a href="wcc/characters/falcon.html" class="cat" target="_blank">Falconflame of WindClan</a></p><br>
-                        <p><a href="wcc/characters/fox.html" class="cat" target="_blank">Foxsnap of SkyClan</a></p><br>
-                        <p><a href="wcc/characters/ezio.html" class="cat" target="_blank">Ezio of the Rockshore Kin</a></p><br>
-                        <p><a href="wcc/characters/shrike.html" class="cat" target="_blank">Shrikekit of RiverClan</a></p>
-                    </div>
-                    <button class="accordion">DECEASED</button>
-                    <div class="panel"><p><a href="" class="cat" target="_blank">Cat of Clan</a></p><br>
-                    <p><a href="" class="cat" target="_blank">Cat of Clan</a></p></div>
+            <div class="container">
+                <!-- BULK CONTENT -->
+                <div class="left">
+                    <h1>LIVING</h1>
+                    <p class="rook">Rookflight</p>
+                    <p class="pidge">Pigeonsun</p>
+                    <p class="shrike">Shrikepaw</p>
+                    <p class="owl">Owlkit</p>
+                    <p class="silver">Silverhawk</p>
+                    <p class="fish">Fishpaw</p>
+                    <p class="burdock">Burdockpaw</p><br>
+
+                    <h2>DECEASED</h2>
+                    <p class="day">Dayquill</p>
+                    <p class="clover">Cloverheart</p>
+                    <p class="twilight">Twilightpaw</p>
+                    <p class="adder">Adderdawn</p>
+                    <p class="falcon">Falconflame</p>
+                    <p class="web">Webshadow</p>
+                    <p class="newt">Newtspring</p>
+                    <p class="bird">Birdstar</p>
+                    <p class="fox">Foxsnap</p>
+                    <p class="ezio">Ezio</p>
                 </div>
-                <div class="right-column">
+                <div class="right">
                     <div class="sidebar"></div>
-                    <div class="sidebar-divider" onclick="creditDisplay()"><p>credits</p>
-                        <span class="credit-text" id="credits">
-                            <p>code by <a href="https://warriorclancats.forumotion.com/u5049" target="_blank">downfive</a></p><br>
-                            <p>banner, sidebar imgs from jjk manga</p>
+                    <!-- CREDITS -->
+                    <div class="credit" onclick="displayCredit()">CREDITS
+                        <span class="credtext" id="creditDisplay"><p>code by downfive.</p>
+                            <p><a href="https://www.pinterest.com/pin/31384528648664449/">header image.</a></p>
+                            <p><a href="https://www.pinterest.com/pin/1548181171244517/">sidebar image.</a></p>
                         </span>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <script>
-        function creditDisplay() {
-            var popup = document.getElementById("credits");
-            popup.classList.toggle("show");
-        }
+        
+        <!-- CREDIT SCRIPT -->
+        <script>
+            function displayCredit() {
+                var popup = document.getElementById("creditDisplay");
+                popup.classList.toggle("show");
+            }
+        </script>
+    </body>
+</html>
 
-        var acc = document.getElementsByClassName("accordion");
-        var i;
+<!-- OLD CODE
+    <!DOCTYPE html>
+    <html>
 
-        for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function (e) {
-                /* Toggle between adding and removing the "active" class,
-                to highlight the button that controls the panel */
-                this.classList.toggle("active");
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+        <link href="styles/wcchub.css" rel="stylesheet" type="text/css">
+    </head>
 
-                /* Toggle between hiding and showing the active panel */
-                var panel = this.nextElementSibling;
-                if (panel.style.display === "block") {
-                    panel.style.display = "none";
-                } else {
-                    panel.style.display = "block";
-                }
-            });
-        }
-    </script>
-</body>
+    <body>
+        <div class="container">
+            <div>
+                <div class="header"></div>
+                <div class="body">
+                    <div class="left-column">
+                        <button class="accordion">LIVING</button>
+                        <div class="panel">
+                            <p><a href="wcc/characters/rowan.html" class="cat" target="_blank">Rowansong of RiverClan</a></p>
+                            <p><a href="wcc/characters/rook.html" class="cat" target="_blank">Rookflight of RiverClan</a></p>
+                            <p><a href="wcc/characters/silver.html" class="cat" target="_blank">Silverhawk of ShadowClan</a></p><br>
+                            <p><a href="wcc/characters/pigeon.html" class="cat" target="_blank">Pigeonsun of RiverClan</a></p></br>
+                            <p><a href="wcc/characters/fish.html" class="cat" target="_blank">Fishpaw of ShadowClan</a></p><br>
+                            <p><a href="wcc/characters/falcon.html" class="cat" target="_blank">Falconflame of WindClan</a></p><br>
+                            <p><a href="wcc/characters/fox.html" class="cat" target="_blank">Foxsnap of SkyClan</a></p><br>
+                            <p><a href="wcc/characters/ezio.html" class="cat" target="_blank">Ezio of the Rockshore Kin</a></p><br>
+                            <p><a href="wcc/characters/shrike.html" class="cat" target="_blank">Shrikekit of RiverClan</a></p>
+                        </div>
+                        <button class="accordion">DECEASED</button>
+                        <div class="panel"><p><a href="" class="cat" target="_blank">Cat of Clan</a></p><br>
+                        <p><a href="" class="cat" target="_blank">Cat of Clan</a></p></div>
+                    </div>
+                    <div class="right-column">
+                        <div class="sidebar"></div>
+                        <div class="sidebar-divider" onclick="creditDisplay()"><p>credits</p>
+                            <span class="credit-text" id="credits">
+                                <p>code by <a href="https://warriorclancats.forumotion.com/u5049" target="_blank">downfive</a></p><br>
+                                <p>banner, sidebar imgs from jjk manga</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            function creditDisplay() {
+                var popup = document.getElementById("credits");
+                popup.classList.toggle("show");
+            }
+
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function (e) {
+                    /* Toggle between adding and removing the "active" class,
+                    to highlight the button that controls the panel */
+                    this.classList.toggle("active");
+
+                    /* Toggle between hiding and showing the active panel */
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                        panel.style.display = "none";
+                    } else {
+                        panel.style.display = "block";
+                    }
+                });
+            }
+        </script>
+    </body>
+-->
