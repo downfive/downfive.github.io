@@ -90,7 +90,7 @@ h2 {
 .header {
     width: 75%;
     height: 250px;
-    margin-top: 10px;
+    margin: 0 auto;
     background-image: linear-gradient(to bottom, var(--bg-gradi1) 90%, var(--bg-gradi2) 10%) var(--header);
     background-size: cover;
     background-repeat: no-repeat;
