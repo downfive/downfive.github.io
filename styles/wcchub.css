@@ -54,7 +54,7 @@
 */
 
 /* FULL PAGE */
-.page {
+body {
     background-color: var(--bg);
     color: var(--color);
     font-family: "Inter", sans-serif;
