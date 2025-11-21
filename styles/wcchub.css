@@ -1,6 +1,7 @@
 /* IMPORT VALUES */
 * {
     --bg: #2D2D42;
+    --cbg: rgba(191,107,36,.5);
     --bg-gradi1: rgba(45,45,66,0);
     --bg-gradi2: rgba(45,45,66,.8);
     --text: #F2F2F2;
