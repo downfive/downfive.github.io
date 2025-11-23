@@ -5,8 +5,8 @@
     --bg-gradi1: rgba(45,45,66,0);
     --bg-gradi2: rgba(45,45,66,.8);
     --text: #F2F2F2;
-    --header: url(https://i.pinimg.com/1200x/a5/08/9c/a5089c6aac2a30d95d90fc64af9510f3.jpg);
-    --sidebar: url(https://i.pinimg.com/1200x/dc/b2/22/dcb2224bb30d01296b8a61fb46a545a5.jpg);
+    --header: url(https://i.ibb.co/zTWB3hqm/landinghead.png);
+    --sidebar: url(https://i.ibb.co/sv6r5P1v/landingside.png);
     --title: #D48F4E;
     --border: #D6C9BC;
     --credbox: #875924;
@@ -126,7 +126,7 @@ h2 {
 }
 
 .sidebar {
-    height: 90%;
+    min-height: 90%;
     background-image: var(--sidebar);
     background-size: cover;
     background-repeat: no-repeat;
@@ -136,7 +136,7 @@ h2 {
 
 /* CREDITS */
 .credit {
-    height: 10%;
+    height: 32px;
     background-color: var(--credbox);
     color: var(--bg);
 		text-align: center;
