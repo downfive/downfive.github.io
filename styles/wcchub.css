@@ -146,6 +146,7 @@ a {
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
+    border-radius: 5px;
 }
 
 /* CREDITS */
