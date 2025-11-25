@@ -60,6 +60,7 @@ body {
     color: var(--color);
     font-family: "Inter", sans-serif;
     font-size: 20pt;
+    line-height: 15px;
 }
 
 /* ???? 
@@ -79,6 +80,9 @@ h1 {
     font-family: "Cinzel Decorative", serif;
     font-weight: 700;
     font-size: 32pt;
+    border-bottom: 1px solid var(--text);
+	padding: 5px;
+	width: 175px;
 }
 
 h2 {
@@ -86,23 +90,30 @@ h2 {
     font-family: "Cinzel Decorative", serif;
     font-weight: 400;
     font-size: 28pt;
+    border-bottom: 1px solid var(--text);
+    padding: 5px;
+	width: 215px;
+}
+
+a {
+	color: var(--title);
 }
 
 .header {
     width: 75%;
     height: 250px;
     margin: 0 auto;
-		background-image: var(--header);
+    background-image: var(--header);
     /*background-image: linear-gradient(to bottom, var(--bg-gradi1) 90%, var(--bg-gradi2) 10%) var(--header);*/
     background-size: cover;
     background-repeat: no-repeat;
-		border-radius: 5px;
+    border-radius: 5px;
 }
 
 .container {
     width: 75%;
     height: 900px;
-		background-color: var(--cbg);
+    background-color: var(--cbg);
     margin: 25px auto 0px auto;
     display: flex;
     flex-direction: row wrap;
@@ -113,16 +124,19 @@ h2 {
 .left {
     width: 50%;
     max-height: 80%;
-		position: relative;
+	position: relative;
     overflow: scroll;
-		right: 6%;
+	right: 6%;
+	scrollbar-color: var(--title) var(--credbox);
+	scrollbar-width: thin;
+	scroll-padding-left: 30px;
 }
 
 .right {
     width: 30%;
-		left: 7%;
+	left: 7%;
     max-height: 80%;
-		position: relative;
+	position: relative;
 }
 
 .sidebar {
@@ -139,21 +153,21 @@ h2 {
     height: 32px;
     background-color: var(--credbox);
     color: var(--bg);
-		text-align: center;
+    text-align: center;
+    vertical-align: middle;
+	padding-top: 15px;
     border-radius: 2px;
-		margin-top: 15px;
+    margin-top: 15px;
 
     .credtext {
-        background-color: var(--bg-gradi2);
         color: var(--text);
         visibility: hidden;
         text-align: justify;
         padding: 6px;
         position: relative;
         z-index: 1;
-        bottom: 80%;
-				width: 200px;
-				font-size: 12pt;
+        width: 200px;
+        font-size: 12pt;
     }
 
     .show {
